@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Cadastro.Api",
+    "\\Cadastro.Application",
+    "\\Cadastro.Application\\Controls",
+    "\\Vendas.Service",
+    "\\Vendas.Service\\Repositorios",
+    "\\Vendas.Service\\Repositorios\\Data"
+  ],
+  "SelectedNode": "\\Vendas.Service\\Repositorios\\RepositorioBase.cs",
+  "PreviewInSolutionExplorer": false
+}

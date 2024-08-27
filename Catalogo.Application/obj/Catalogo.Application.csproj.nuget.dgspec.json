@@ -1,0 +1,272 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Application\\Catalogo.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Application\\Catalogo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Application\\Catalogo.Application.csproj",
+        "projectName": "Catalogo.Application",
+        "projectPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Application\\Catalogo.Application.csproj",
+        "packagesPath": "C:\\Users\\thaly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thaly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Service\\Catalogo.Service.csproj": {
+                "projectPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Service\\Catalogo.Service.csproj"
+              },
+              "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "mediatr": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Dominio\\Catalogo.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Dominio\\Catalogo.Dominio.csproj",
+        "projectName": "Catalogo.Dominio",
+        "projectPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Dominio\\Catalogo.Dominio.csproj",
+        "packagesPath": "C:\\Users\\thaly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thaly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Service\\Catalogo.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Service\\Catalogo.Service.csproj",
+        "projectName": "Catalogo.Service",
+        "projectPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Service\\Catalogo.Service.csproj",
+        "packagesPath": "C:\\Users\\thaly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thaly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Dominio\\Catalogo.Dominio.csproj": {
+                "projectPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Catalogo.Dominio\\Catalogo.Dominio.csproj"
+              },
+              "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "DapperExtensions": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\thaly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thaly\\source\\repos\\DominiosRicos.API\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thaly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
